@@ -40,7 +40,7 @@ function setup() {
   World.add(world,playerBase);
 
   player=Bodies.rectangle(250,playerBase.position.y -160,50,180,options);
-  
+
   World.add(world,player);
 
   playerArcher=Bodies.rectangle(250,playerBase.position.y -160,50,180,options);
@@ -69,3 +69,4 @@ function draw(){
  // Engine.update(engine);
    
  
+}
